@@ -8,3 +8,6 @@ class Todo:
     date_modification = None
     items = []
 
+    # Constructeur
+    def __init__(self):
+        pass
