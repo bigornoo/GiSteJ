@@ -8,4 +8,5 @@ item1 = Item(todo_de_test)
 item1.id = 1
 item1.label = 'J\'adoooooooore le chocolat'
 
-for
+for item in todo_de_test.items:
+    print(item)
