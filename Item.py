@@ -17,5 +17,6 @@ class Item:
         self.todo = todo
         todo.items.append(self)
 
+    # methods
     def __str__(self):
         return "{} {}".format(self.id, self.label)
