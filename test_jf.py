@@ -1,7 +1,11 @@
 from Todo import Todo
 from Item import Item
 
-le_tofu_ca_pue = Todo()
+todo_de_test = Todo()
 
-item1 = Item(le_tofu_ca_pue)
+item1 = Item(todo_de_test)
 
+item1.id = 1
+item1.label = 'J\'adoooooooore le chocolat'
+
+for
