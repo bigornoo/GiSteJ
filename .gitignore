@@ -104,6 +104,5 @@ venv.bak/
 .mypy_cache/
 
 # pycharm
-.idea/
-workspace.xml
-_pycache__/
+/.idea/
+/_pycache__/
