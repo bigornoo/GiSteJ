@@ -16,3 +16,6 @@ class Item:
     def __init__(self, todo):
         self.todo = todo
         todo.items.append(self)
+
+    def __str__(self):
+        return "{} {}".format(self.id, self.label)
